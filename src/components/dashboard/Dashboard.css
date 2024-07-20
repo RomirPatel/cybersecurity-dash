@@ -1,0 +1,171 @@
+/* Dashboard General Styles */
+.dashboard-container {
+    background-color: #212529;
+    color: #f8f9fa;
+    padding: 1rem;
+    font-size: 0.9rem; /* Slightly smaller font size */
+    transition: margin-left 0.3s ease;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #212529;
+    color: #f8f9fa;
+    height: 100vh;
+    width: 250px;
+    padding: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+
+.sidebar.collapsed {
+    width: 60px;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    height: 200%;
+    border-right: 1px solid #343a40;
+}
+
+.sidebar .btn-light {
+    background-color: #2b2d32;
+    color: #f8f9fa;
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+}
+
+.sidebar .btn-light:hover {
+    background-color: #495057;
+}
+
+.sidebar .form-control {
+    border-radius: 0.25rem;
+}
+
+
+.sidebar blockquote {
+    margin: 0;
+    padding: 0.5rem;
+    border-left: 4px solid #007bff;
+    background-color: #495057;
+    color: #f8f9fa;
+    font-size: 0.875rem;
+}
+
+/* Main Content */
+.dashboard-container {
+    margin-left: 250px; /* Adjust if sidebar is collapsed */
+}
+
+.dashboard-container.sidebar-collapsed {
+    margin-left: 60px;
+}
+
+.main-content {
+    padding: 1rem;
+    margin-left: 250px; /* Adjust if sidebar is collapsed */
+}
+
+.main-content.sidebar-collapsed {
+    margin-left: 60px;
+}
+
+/* Card Styles */
+/* Header Styles */
+.card-header {
+    background-color: #343a40; /* Dark background for headers */
+    color: #f8f9fa;
+    font-size: 1.25rem; /* Larger font size for better visibility */
+    font-weight: 600; /* Bold font weight */
+    border-bottom: 1px solid #495057;
+    padding: 1rem;
+    border-radius: 0.5rem 0.5rem 0 0; /* Rounded top corners */
+}
+
+/* Card Styles */
+.card {
+    border-radius: 0.75rem; /* Larger border radius for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Larger shadow for better depth */
+    background-color: #343a40; /* Dark background for cards */
+    color: #f8f9fa;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 1.5rem; /* Increased margin for better separation */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Styles */
+.btn-light {
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Sidebar Styles */
+.sidebar .btn-light {
+    font-size: 1.1rem; /* Slightly larger font size for better readability */
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+
+/* List Styles */
+.list-unstyled li {
+    padding: 0.5rem; /* Slightly increased padding */
+    border-radius: 0.25rem;
+    transition: background-color 0.2s ease;
+    font-size: 0.9rem; /* Slightly smaller font size */
+}
+
+.list-unstyled li:hover {
+    background-color: #495057;
+}
+
+/* Severity Badges */
+.badge-critical {
+    background-color: #dc3545; /* Red for critical */
+    color: #fff;
+}
+
+.badge-high {
+    background-color: #fd7e14; /* Orange for high */
+    color: #fff;
+}
+
+.badge-medium {
+    background-color: #ffc107; /* Yellow for medium */
+    color: #000;
+}
+
+.badge-low {
+    background-color: #28a745; /* Green for low */
+    color: #fff;
+}
+
+/* Compliance Status Badges */
+.compliant {
+    color: #28a745; /* Green for compliant */
+}
+
+
+.non-compliant {
+    color: #dc3545; /* Red for non-compliant */
+}
+
+/* Chart Card Styles */
+.chart-card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem; /* Larger border radius */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Slightly larger shadow */
+    background-color: #343a40; /* Dark background for charts */
+}
