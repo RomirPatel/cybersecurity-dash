@@ -1,0 +1,17 @@
+/* Navbar.css */
+.navbar {
+    border-bottom: 1px solid #343a40; /* Optional: Adds a border at the bottom */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Optional: Makes the brand text bold */
+}
+
+.nav-link {
+    color: #ffffff; /* Ensure link color is white */
+    margin-left: 1rem; /* Adds spacing between nav links */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Pushes the nav items to the right */
+}

@@ -1,0 +1,12 @@
+/* App.css */
+.content {
+    padding-top: 100px; /* Adjust based on the height of your fixed navbar */
+}
+
+.bg-dark {
+    background-color: #343a40; /* Ensure background color matches */
+}
+
+.text-light {
+    color: #ffffff; /* Ensure text color is light */
+}
